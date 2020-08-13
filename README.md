@@ -34,7 +34,7 @@ deletion queries, as we wanted to concentrate on making an optimized
 implementation based on techniques learned in this course rather than
 algorithmic optimization.
 
-## WHY RED BLACK TREE:
+## Why Red Black Tree:
 
 The options that we looked at for implementing the dictionary were
 Tries,Red-Black Trees,BST, AVL Trees, Compressed Tries and hash + tree
@@ -68,7 +68,7 @@ AVL trees as fewer rotations are done due to relatively relaxed Balancing.
 storage for an integer per node whereas Red Black Tree requires only 1 bit
 of information per node.
 
-## COMPARISONS WITH OTHER DATA STRUCTURES :
+## Comparisons with other Data Structures :
 
 - **About Red Black Trees**
     Red-Black tree is a self-balancing binary search tree in which each node
