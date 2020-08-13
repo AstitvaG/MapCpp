@@ -160,8 +160,7 @@ node.We check these values before proceeding.
 
 We plan to introduce pointer references in the code to make it run even faster.
 
-Memory Allocations:
-
+**Memory Allocations:**
 We are dynamically adding memory when required using ​ new() and dellocating or freeing it using ​ free() ​ in c++.
 
 ## Locks:
