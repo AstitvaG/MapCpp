@@ -1,8 +1,8 @@
 # MapCpp
 A In-Memory Key-Value Storage Software in C++ built from scratch (without use of any STL).
 
-**Project Problem Statement** : Build a In-Memory Key-Value Storage Software in
-C++
+## **Project Problem Statement** : 
+### Build a In-Memory Key-Value Storage Software in C++
 
 
 Data Structure decided in the implementation spec: **TRIES**
@@ -34,7 +34,7 @@ deletion queries, as we wanted to concentrate on making an optimized
 implementation based on techniques learned in this course rather than
 algorithmic optimization.
 
-**WHY RED BLACK TREE:**
+## WHY RED BLACK TREE:
 
 The options that we looked at for implementing the dictionary were
 Tries,Red-Black Trees,BST, AVL Trees, Compressed Tries and hash + tree
@@ -68,23 +68,29 @@ AVL trees as fewer rotations are done due to relatively relaxed Balancing.
 storage for an integer per node whereas Red Black Tree requires only 1 bit
 of information per node.
 
-** COMPARISONS WITH OTHER DATA STRUCTURES ​ : **
-
+## COMPARISONS WITH OTHER DATA STRUCTURES :
 
 - **About Red Black Trees**
     Red-Black tree is a self-balancing binary search tree in which each node
     contains an extra bit for denoting the color of the node, either red or black.
     A red-black tree satisfies the following properties:
-       - **Red/Black Property** ​: Every node is colored, either red or black.
-       - **Root Property:** ​ The root is black.
-       - **Leaf Property:** ​ Every leaf (NIL) is black.
-       - **Red Property:** ​ If a red node has children then, the children are always
+       
+    - **Red/Black Property** ​: Every node is colored, either red or black.
+       
+    - **Root Property:** ​ The root is black.
+       
+    - **Leaf Property:** ​ Every leaf (NIL) is black.
+       
+    - **Red Property:** ​ If a red node has children then, the children are always
           black.
-       - **Depth Property:** ​ For each node, any simple path from this node to
+       
+    - **Depth Property:** ​ For each node, any simple path from this node to
           any of its descendant leaf has the same black-depth (the number of
           black nodes).
-       - The path from the root to the farthest leaf is no more than twice as
+       
+    - The path from the root to the farthest leaf is no more than twice as
           long as the path from the root to the nearest leaf.
+
 - **Initial Implementation details:**
     We tried with tries first as the time complexity was better for tries. But the
     memory used by tries was very high.We were getting memory errors for
@@ -92,7 +98,8 @@ of information per node.
     the time overhead and even after optimization memory usage was very high.
 
 
-- **Final Implementation details of the APIs:**
+## **Final Implementation details of the APIs:**
+
 Let n = number of entries(key-value pairs).
 
 ● **get (key) - Returns value for the key**
