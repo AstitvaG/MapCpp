@@ -8,10 +8,10 @@ A In-Memory Key-Value Storage Software in C++ built from scratch (without use of
 Data Structure decided in the implementation spec: **TRIES**
 
 
-New data structure used for the project: **RED BLACK TREE
+New data structure used for the project: **RED BLACK TREE**
 
 
-Reason for change of data structure:**
+## Reason for change of data structure:
 
 
 - Tries give the best runtime for each API call.
